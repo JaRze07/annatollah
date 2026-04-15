@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "GARDEN-2026-AXR6BX",
+      "category": "Owoce",
+      "species": "Malina",
+      "variety": "Test3",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776253371176,
+      "updatedAt": 1776255255975
+    },
+    {
       "id": "UNASSIGNED-CB2AE09C",
       "category": "Owoce",
       "species": "Malina",
@@ -157,7 +171,7 @@
   ],
   "events": [
     {
-      "id": 5,
+      "id": 7,
       "plantId": "https:\/\/bdp.page.link\/dFQq",
       "eventType": "PODLEWANIE",
       "eventDate": 1776251237973,
@@ -165,7 +179,7 @@
       "createdAt": 1776251237973
     },
     {
-      "id": 6,
+      "id": 8,
       "plantId": "https:\/\/bdp.page.link\/57xB",
       "eventType": "PODLEWANIE",
       "eventDate": 1776251236018,
@@ -173,5 +187,5 @@
       "createdAt": 1776251236018
     }
   ],
-  "syncTimestamp": 1776255234183
+  "syncTimestamp": 1776255262138
 }
