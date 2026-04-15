@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "GARDEN-2026-ZVYUR6",
+      "category": "Warzywa",
+      "species": "Ogórek",
+      "variety": "gg",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "\/data\/user\/0\/com.garden.tracker\/files\/photos\/1fe56360-0689-4464-aace-880ef2600d68.jpg",
+      "notes": "",
+      "createdAt": 1776251060394,
+      "updatedAt": 1776252688078
+    },
+    {
       "id": "GARDEN-2026-L6QABZ",
       "category": "Warzywa",
       "species": "Papryka",
@@ -131,5 +145,5 @@
       "createdAt": 1776251236018
     }
   ],
-  "syncTimestamp": 1776252683931
+  "syncTimestamp": 1776252729577
 }
