@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "UNASSIGNED-DE114355",
+      "category": "Warzywa",
+      "species": "Ogórek",
+      "variety": "gg",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "\/data\/user\/0\/com.garden.tracker\/files\/photos\/1fe56360-0689-4464-aace-880ef2600d68.jpg",
+      "notes": "",
+      "createdAt": 1776251060394,
+      "updatedAt": 1776251060394
+    },
+    {
       "id": "https:\/\/bdp.page.link\/57xB",
       "category": "Warzywa",
       "species": "Papryka",
@@ -58,5 +72,5 @@
     }
   ],
   "events": [],
-  "syncTimestamp": 1776250993916
+  "syncTimestamp": 1776251064064
 }
