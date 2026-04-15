@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnnaTollah</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fff; color: #1c1c1c; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 24px; }
+        .card { text-align: center; max-width: 400px; }
+        .icon { font-size: 64px; margin-bottom: 16px; }
+        h1 { color: #2E7D32; font-size: 28px; margin-bottom: 8px; }
+        .id { background: #E8F5E9; color: #1B5E20; font-family: monospace; font-size: 18px; padding: 12px 20px; border-radius: 12px; margin: 16px 0; display: inline-block; }
+        p { color: #666; line-height: 1.5; margin: 8px 0; }
+        .btn { display: inline-block; background: #2E7D32; color: #fff; text-decoration: none; padding: 14px 32px; border-radius: 12px; font-size: 16px; margin-top: 16px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">🌱</div>
+        <h1>AnnaTollah</h1>
+        <div id="plant-id" class="id"></div>
+        <p id="status">Otwieranie aplikacji...</p>
+        <a id="open-btn" class="btn" style="display:none">Otwórz w AnnaTollah</a>
+        <p style="margin-top:24px;font-size:13px;color:#999">Jeśli aplikacja się nie otworzyła, zainstaluj AnnaTollah na swoim urządzeniu Android.</p>
+    </div>
+    <script>
+        var path = window.location.pathname.replace(/^\/annatollah\/?/, '').replace(/\/$/, '');
+        var plantId = path || null;
+        var el = document.getElementById('plant-id');
+        var status = document.getElementById('status');
+        var btn = document.getElementById('open-btn');
+
+        if (plantId) {
+            el.textContent = plantId;
+            var deepLink = 'annatollah://plant/' + plantId;
+            // Try to open the app
+            window.location.href = deepLink;
+            // Show manual button after a delay
+            setTimeout(function() {
+                status.textContent = 'Kliknij poniżej, aby otworzyć w aplikacji:';
+                btn.href = deepLink;
+                btn.style.display = 'inline-block';
+            }, 1500);
+        } else {
+            el.textContent = 'AnnaTollah';
+            status.textContent = 'Aplikacja do śledzenia roślin w ogrodzie';
+        }
+    </script>
+</body>
+</html>
