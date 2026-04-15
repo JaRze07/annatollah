@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "https:\/\/bdp.page.link\/dFQq",
+      "category": "Warzywa",
+      "species": "Papryka",
+      "variety": "test",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776251790303,
+      "updatedAt": 1776251790303
+    },
+    {
       "id": "https:\/\/bdp.page.link\/57xB",
       "category": "Warzywa",
       "species": "Ogórek",
@@ -13,20 +27,6 @@
       "notes": "",
       "createdAt": 1776251060394,
       "updatedAt": 1776251660651
-    },
-    {
-      "id": "https:\/\/bdp.page.link\/dFQq",
-      "category": "Warzywa",
-      "species": "Ogórek",
-      "variety": "gg",
-      "varietyTotalCount": 1,
-      "plantNumber": 1,
-      "boxNumber": "",
-      "year": 2026,
-      "seedPacketPhotoPath": "\/data\/user\/0\/com.garden.tracker\/files\/photos\/1fe56360-0689-4464-aace-880ef2600d68.jpg",
-      "notes": "",
-      "createdAt": 1776251060394,
-      "updatedAt": 1776251077598
     },
     {
       "id": "GARDEN-2026-8DMY2Z",
@@ -87,7 +87,7 @@
   ],
   "events": [
     {
-      "id": 1,
+      "id": 4,
       "plantId": "https:\/\/bdp.page.link\/dFQq",
       "eventType": "PODLEWANIE",
       "eventDate": 1776251237973,
@@ -103,5 +103,5 @@
       "createdAt": 1776251236018
     }
   ],
-  "syncTimestamp": 1776251782599
+  "syncTimestamp": 1776251791831
 }
