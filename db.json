@@ -1,6 +1,34 @@
 {
   "plants": [
     {
+      "id": "GARDEN-2026-RBJB83",
+      "category": "Kwiaty",
+      "species": "Róża",
+      "variety": "kwiat 55",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776256935696,
+      "updatedAt": 1776257005740
+    },
+    {
+      "id": "GARDEN-2026-A5CRPE",
+      "category": "Zioła",
+      "species": "Bazylia",
+      "variety": "bazylia 11",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776256905210,
+      "updatedAt": 1776257001241
+    },
+    {
       "id": "GARDEN-2026-YQL5DC",
       "category": "Warzywa",
       "species": "Pomidor",
