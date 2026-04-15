@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "GARDEN-2026-L6QABZ",
+      "category": "Warzywa",
+      "species": "Papryka",
+      "variety": "test",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776250520849,
+      "updatedAt": 1776252632837
+    },
+    {
       "id": "GARDEN-2026-UE3YUA",
       "category": "Warzywa",
       "species": "Kapusta",
@@ -117,5 +131,5 @@
       "createdAt": 1776251236018
     }
   ],
-  "syncTimestamp": 1776252627495
+  "syncTimestamp": 1776252636408
 }
