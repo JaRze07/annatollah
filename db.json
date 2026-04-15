@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "GARDEN-2026-UE3YUA",
+      "category": "Warzywa",
+      "species": "Kapusta",
+      "variety": "cfcn",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776252490032,
+      "updatedAt": 1776252490032
+    },
+    {
       "id": "https:\/\/bdp.page.link\/dFQq",
       "category": "Warzywa",
       "species": "Papryka",
@@ -103,5 +117,5 @@
       "createdAt": 1776251236018
     }
   ],
-  "syncTimestamp": 1776252466110
+  "syncTimestamp": 1776252618993
 }
