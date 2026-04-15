@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "GARDEN-2026-7F5WFH",
+      "category": "Zioła",
+      "species": "Bazylia",
+      "variety": "",
+      "varietyTotalCount": 2,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776267725843,
+      "updatedAt": 1776267756370
+    },
+    {
       "id": "GARDEN-2026-RBJB83",
       "category": "Kwiaty",
       "species": "Róża",
@@ -71,5 +85,22 @@
       "updatedAt": 1776256426186
     }
   ],
-  "events": []
+  "events": [
+    {
+      "id": 9,
+      "plantId": "GARDEN-2026-RBJB83",
+      "eventType": "INNE",
+      "eventDate": 1776267189511,
+      "notes": "naświetlanie koniec",
+      "createdAt": 1776267189511
+    },
+    {
+      "id": 8,
+      "plantId": "GARDEN-2026-RBJB83",
+      "eventType": "INNE",
+      "eventDate": 1776267172542,
+      "notes": "naświetlanie start",
+      "createdAt": 1776267172542
+    }
+  ]
 }
