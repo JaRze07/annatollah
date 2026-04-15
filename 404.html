@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AnnaTollah</title>
+    <title>AniaTollah</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fff; color: #1c1c1c; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 24px; }
@@ -20,13 +20,13 @@
 <body>
     <div class="card">
         <div class="icon">🌱</div>
-        <h1>AnnaTollah</h1>
+        <h1>AniaTollah</h1>
         <div id="plant-id" class="id"></div>
         <p id="status"></p>
-        <a id="deep-link" class="btn" style="display:none">Otwórz w AnnaTollah</a>
+        <a id="deep-link" class="btn" style="display:none">Otwórz w AniaTollah</a>
         <br>
         <a id="intent-link" class="btn" style="display:none;background:#43A047;margin-top:8px">Otwórz aplikację (Android)</a>
-        <p class="small">Jeśli aplikacja się nie otworzyła, zainstaluj AnnaTollah na urządzeniu Android i kliknij powyższy przycisk.</p>
+        <p class="small">Jeśli aplikacja się nie otworzyła, zainstaluj AniaTollah na urządzeniu Android i kliknij powyższy przycisk.</p>
     </div>
     <script>
         var path = window.location.pathname.replace(/^\/annatollah\/?/, '').replace(/\/$/, '');
@@ -54,7 +54,7 @@
             // Try auto-open via intent (more reliable on Android)
             window.location.href = intentLink;
         } else {
-            el.textContent = 'AnnaTollah';
+            el.textContent = 'AniaTollah';
             status.textContent = 'Aplikacja do śledzenia roślin w ogrodzie';
         }
     </script>
