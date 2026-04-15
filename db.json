@@ -1,6 +1,34 @@
 {
   "plants": [
     {
+      "id": "UNASSIGNED-CB2AE09C",
+      "category": "Owoce",
+      "species": "Malina",
+      "variety": "Test3",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776253371176,
+      "updatedAt": 1776253371176
+    },
+    {
+      "id": "UNASSIGNED-1ACC4478",
+      "category": "Warzywa",
+      "species": "Pomidor",
+      "variety": "odmiana 1",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "7",
+      "year": 2026,
+      "seedPacketPhotoPath": "\/data\/user\/0\/com.garden.tracker\/files\/photos\/a292518c-3b47-49a0-a76a-06c215e2caa3.jpg",
+      "notes": "",
+      "createdAt": 1776253340433,
+      "updatedAt": 1776253340433
+    },
+    {
       "id": "GARDEN-2026-ZVYUR6",
       "category": "Warzywa",
       "species": "Ogórek",
@@ -129,7 +157,7 @@
   ],
   "events": [
     {
-      "id": 3,
+      "id": 1,
       "plantId": "https:\/\/bdp.page.link\/dFQq",
       "eventType": "PODLEWANIE",
       "eventDate": 1776251237973,
@@ -145,5 +173,5 @@
       "createdAt": 1776251236018
     }
   ],
-  "syncTimestamp": 1776252891483
+  "syncTimestamp": 1776253695939
 }
