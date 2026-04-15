@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "UNASSIGNED-C8624BA5",
+      "category": "Warzywa",
+      "species": "Papryka",
+      "variety": "test",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776250520849,
+      "updatedAt": 1776250520849
+    },
+    {
       "id": "https:\/\/bdp.page.link\/57xB",
       "category": "Owoce",
       "species": "Truskawka",
@@ -30,5 +44,5 @@
     }
   ],
   "events": [],
-  "syncTimestamp": 1776250507737
+  "syncTimestamp": 1776250523900
 }
