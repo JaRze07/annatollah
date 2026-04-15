@@ -85,6 +85,23 @@
       "updatedAt": 1776250338337
     }
   ],
-  "events": [],
-  "syncTimestamp": 1776251155088
+  "events": [
+    {
+      "id": 2,
+      "plantId": "https:\/\/bdp.page.link\/dFQq",
+      "eventType": "PODLEWANIE",
+      "eventDate": 1776251237973,
+      "notes": "",
+      "createdAt": 1776251237973
+    },
+    {
+      "id": 1,
+      "plantId": "https:\/\/bdp.page.link\/57xB",
+      "eventType": "PODLEWANIE",
+      "eventDate": 1776251236018,
+      "notes": "",
+      "createdAt": 1776251236018
+    }
+  ],
+  "syncTimestamp": 1776251322722
 }
