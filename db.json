@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "https:\/\/bdp.page.link\/57xB",
+      "category": "Warzywa",
+      "species": "Papryka",
+      "variety": "test",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776250520849,
+      "updatedAt": 1776250941241
+    },
+    {
       "id": "https:\/\/bdp.page.link\/dFQq",
       "category": "Warzywa",
       "species": "Papryka",
@@ -29,20 +43,6 @@
       "updatedAt": 1776250520849
     },
     {
-      "id": "https:\/\/bdp.page.link\/57xB",
-      "category": "Owoce",
-      "species": "Truskawka",
-      "variety": "tedt",
-      "varietyTotalCount": 1,
-      "plantNumber": 1,
-      "boxNumber": "",
-      "year": 2026,
-      "seedPacketPhotoPath": "",
-      "notes": "",
-      "createdAt": 1776250338337,
-      "updatedAt": 1776250387672
-    },
-    {
       "id": "UNASSIGNED-086E44FF",
       "category": "Owoce",
       "species": "Truskawka",
@@ -58,5 +58,5 @@
     }
   ],
   "events": [],
-  "syncTimestamp": 1776250931244
+  "syncTimestamp": 1776250945381
 }
