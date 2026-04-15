@@ -1,6 +1,20 @@
 {
   "plants": [
     {
+      "id": "https:\/\/bdp.page.link\/dFQq",
+      "category": "Warzywa",
+      "species": "Papryka",
+      "variety": "test",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776250520849,
+      "updatedAt": 1776250529140
+    },
+    {
       "id": "UNASSIGNED-C8624BA5",
       "category": "Warzywa",
       "species": "Papryka",
@@ -44,5 +58,5 @@
     }
   ],
   "events": [],
-  "syncTimestamp": 1776250523900
+  "syncTimestamp": 1776250532307
 }
