@@ -1,5 +1,20 @@
 {
-  "plants": [],
+  "plants": [
+    {
+      "id": "UNASSIGNED-086E44FF",
+      "category": "Owoce",
+      "species": "Truskawka",
+      "variety": "tedt",
+      "varietyTotalCount": 1,
+      "plantNumber": 1,
+      "boxNumber": "",
+      "year": 2026,
+      "seedPacketPhotoPath": "",
+      "notes": "",
+      "createdAt": 1776250338337,
+      "updatedAt": 1776250338337
+    }
+  ],
   "events": [],
-  "syncTimestamp": 1776250323913
+  "syncTimestamp": 1776250343065
 }
